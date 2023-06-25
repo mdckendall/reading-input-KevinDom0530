@@ -2,10 +2,9 @@ import java.util.Scanner;
 
 class Main{
   public static void main(String[] args){
- Scanner input = new Scanner();
+ Scanner input = new Scanner(System.in);
     System.out.println("Enter a word: ");
-    String input = input.nextString();
-    System.out.println(nextLine());
-    System.out.println(input + input.length());   
+    String word = input.nextLine();
+    System.out.println(word + " " + word.length());   
   }
 }
